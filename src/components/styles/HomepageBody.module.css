@@ -1,0 +1,81 @@
+.postTweetContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .postTweetInput {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #1da1f2;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .postTweetButton,.sortButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1da1f2;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .deleteButton {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .tweet {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tweet .profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .tweet .tweetContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .tweet .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .tweet .header .username {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .tweet .header .timestamp {
+    color: #666;
+  }
+  
+  .tweet .tweetText {
+    margin-top: 10px;
+  }
+  
+
+  
